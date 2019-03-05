@@ -1,0 +1,35 @@
+html, body {
+    background: url("https://consciousreminder.com/wp-content/uploads/2018/01/psychic2.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.jumbotron,
+.col-sm-5 {
+    text-align: left; 
+    color: #ac82d6; 
+    font-weight: bolder;
+}
+
+p {
+    color: #ac82d6;
+}
+
+#empty-block {
+    margin-bottom: 230px;
+}
+
+@media screen and (max-width: 750px) {
+
+#instruction {
+    margin-top: 5px;
+}
+
+#empty-block {
+    margin-bottom: 370px;
+}
+
+#move-left {
+    margin-left: 35px;
+}
+
+}
