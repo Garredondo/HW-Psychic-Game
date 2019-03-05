@@ -6,12 +6,13 @@ html, body {
 .jumbotron,
 .col-sm-5 {
     text-align: left; 
-    color: #ac82d6; 
+    color: white; 
     font-weight: bolder;
 }
 
 p {
-    color: #ac82d6;
+    color: white;
+    font-weight: bolder;
 }
 
 #empty-block {
