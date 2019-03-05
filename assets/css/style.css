@@ -13,6 +13,7 @@ html, body {
 p {
     color: white;
     font-weight: bolder;
+    font-size: 1em;
 }
 
 #empty-block {
