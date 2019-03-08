@@ -55,7 +55,7 @@ document.onkeyup = function (event) {
             correct++;
             document.getElementById("user-wins").innerHTML = correct;
             isPlaying = false;
-            document.getElementById("game-result").innerHTML = "You Win! Press any to replay!";
+            document.getElementById("game-result").innerHTML = "You Win! Press spacebar to replay!";
          }
          else {
             guessesRemain--;
@@ -64,7 +64,7 @@ document.onkeyup = function (event) {
          }
          if (guessesRemain === 0) {
             isPlaying = false;
-            document.getElementById("game-result").innerHTML = "Sorry you lose! Press any key to replay!";
+            document.getElementById("game-result").innerHTML = "Sorry you lose! Press spacebar to replay!";
             incorrect++;
             document.getElementById("user-losses").innerHTML = incorrect;
          }
